@@ -79,7 +79,7 @@ FT_BEGIN_HEADER
    *   or even crashes.
    *
    *   To use the cache, start with calling @FTC_Manager_New to create a new
-   *   @FTC_Manager object, which models a single cache instance.  You can
+   *   @FTC_Manager object, which gameobjects a single cache instance.  You can
    *   then look up @FT_Face and @FT_Size objects with
    *   @FTC_Manager_LookupFace and @FTC_Manager_LookupSize, respectively.
    *

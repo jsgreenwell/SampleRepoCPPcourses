@@ -99,7 +99,7 @@ FT_BEGIN_HEADER
   *    BDF_PropertyRec
   *
   * @description:
-  *    This structure models a given BDF/PCF property.
+  *    This structure gameobjects a given BDF/PCF property.
   *
   * @fields:
   *    type ::

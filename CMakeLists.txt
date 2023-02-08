@@ -18,7 +18,7 @@ include_directories(.
 
 # we are going to build this as part of our main project so just need Project name here
 add_executable(SampleProj
-        main.cpp)
+        main.cpp gameobjects/Ball.cpp gameobjects/Ball.h gameobjects/Paddle.cpp gameobjects/Paddle.h gameobjects/Wall.cpp gameobjects/Wall.h gameobjects/Menu.cpp gameobjects/Menu.h)
 
 # Again - rather than adding a new, secondary, project we will build within our main project
 # so just need project name as the link target

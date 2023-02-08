@@ -328,7 +328,7 @@ FT_BEGIN_HEADER
   /*    FT_Bitmap_Size                                                     */
   /*                                                                       */
   /* <Description>                                                         */
-  /*    This structure models the metrics of a bitmap strike (i.e., a set  */
+  /*    This structure gameobjects the metrics of a bitmap strike (i.e., a set  */
   /*    of glyphs for a given point size and resolution) in a bitmap font. */
   /*    It is used for the `available_sizes' field of @FT_Face.            */
   /*                                                                       */
@@ -465,7 +465,7 @@ FT_BEGIN_HEADER
   /*    FT_Face                                                            */
   /*                                                                       */
   /* <Description>                                                         */
-  /*    A handle to a given typographic face object.  A face object models */
+  /*    A handle to a given typographic face object.  A face object gameobjects */
   /*    a given typeface, in a given style.                                */
   /*                                                                       */
   /* <Note>                                                                */
@@ -853,7 +853,7 @@ FT_BEGIN_HEADER
   /*    FT_FaceRec                                                         */
   /*                                                                       */
   /* <Description>                                                         */
-  /*    FreeType root face class structure.  A face object models a        */
+  /*    FreeType root face class structure.  A face object gameobjects a        */
   /*    typeface in a font file.                                           */
   /*                                                                       */
   /* <Fields>                                                              */
@@ -1481,7 +1481,7 @@ FT_BEGIN_HEADER
   /*    FT_SizeRec                                                         */
   /*                                                                       */
   /* <Description>                                                         */
-  /*    FreeType root size class structure.  A size object models a face   */
+  /*    FreeType root size class structure.  A size object gameobjects a face   */
   /*    object at a given size.                                            */
   /*                                                                       */
   /* <Fields>                                                              */

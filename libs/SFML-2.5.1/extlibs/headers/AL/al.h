@@ -269,7 +269,7 @@ typedef void ALvoid;
  *
  * The distance in units that no attenuation occurs.
  *
- * At 0.0, no distance attenuation ever occurs on non-linear attenuation models.
+ * At 0.0, no distance attenuation ever occurs on non-linear attenuation gameobjects.
  */
 #define AL_REFERENCE_DISTANCE                    0x1020
 
@@ -304,7 +304,7 @@ typedef void ALvoid;
  *
  * The distance above which the source is not attenuated any further with a
  * clamped distance model, or where attenuation reaches 0.0 gain for linear
- * distance models with a default rolloff factor.
+ * distance gameobjects with a default rolloff factor.
  */
 #define AL_MAX_DISTANCE                          0x1023
 

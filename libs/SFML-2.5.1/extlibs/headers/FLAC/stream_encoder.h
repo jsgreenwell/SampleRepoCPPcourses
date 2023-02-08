@@ -1012,7 +1012,7 @@ FLAC_API FLAC__bool FLAC__stream_encoder_set_do_escape_coding(FLAC__StreamEncode
 
 /** Set to \c false to let the encoder estimate the best model order
  *  based on the residual signal energy, or \c true to force the
- *  encoder to evaluate all order models and select the best.
+ *  encoder to evaluate all order gameobjects and select the best.
  *
  * \default \c false
  * \param  encoder  An encoder instance to set.
